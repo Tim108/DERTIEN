@@ -205,7 +205,7 @@
 					<POUserIDFormat digits="2" guid="false" id="2pvcI8KGAqACRwNf" lastNumericValue="0" modelType="BPMNElement" prefix="BP" suffix=""/>
 					<POUserIDFormat digits="3" guid="false" id="epvcI8KGAqACRwNj" lastNumericValue="0" modelType="BusinessRule" prefix="BR" suffix=""/>
 					<POUserIDFormat digits="3" guid="false" id="upvcI8KGAqACRwNi" lastNumericValue="0" modelType="Requirement" prefix="REQ" suffix=""/>
-					<POUserIDFormat digits="2" guid="false" id="upvcI8KGAqACRwNh" lastNumericValue="28" modelType="UseCase" prefix="UC" suffix=""/>
+					<POUserIDFormat digits="2" guid="false" id="upvcI8KGAqACRwNh" lastNumericValue="31" modelType="UseCase" prefix="UC" suffix=""/>
 				</POUserIDFormats>
 			</PORepository>
 		</ProjectOptions>
@@ -6583,6 +6583,11 @@
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</extensionPoint>
+				<extensionPoint extension="hsbVbaKEEWXMCQbK" name="Search on color" xmi:id="hsbVbaKEEWXMCQbL" xmi:type="uml:ExtensionPoint">
+					<xmi:Extension extender="Visual Paradigm for UML">
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</extensionPoint>
 			</ownedMember>
 			<ownedMember isAbstract="false" isLeaf="false" name="Search on size" xmi:id="55bljaKEEWXMCQXL" xmi:type="uml:UseCase">
 				<xmi:Extension extender="Visual Paradigm for UML">
@@ -7603,11 +7608,6 @@
 						</xmi:Extension>
 					</taggedValue>
 				</xmi:Extension>
-				<extensionPoint extension="1r9jjaKEEWXMCQns" name="Check eternal paintings" xmi:id="1r9jjaKEEWXMCQnt" xmi:type="uml:ExtensionPoint">
-					<xmi:Extension extender="Visual Paradigm for UML">
-						<qualityScore value="-1"/>
-					</xmi:Extension>
-				</extensionPoint>
 				<extend extendedCase="rpR1jaKEEWXMCQcO" extensionLocation="oUOtjaKEEWXMCQhD" xmi:id="oUOtjaKEEWXMCQhC" xmi:type="uml:Extend">
 					<xmi:Extension extender="Visual Paradigm for UML">
 						<qualityScore value="100"/>
@@ -7691,12 +7691,12 @@
 				</xmi:Extension>
 				<extend extendedCase="U45VjaKEEWXMCQav" extensionLocation="qMgTjaKEEWXMCQoA" xmi:id="qMgTjaKEEWXMCQn_" xmi:type="uml:Extend">
 					<xmi:Extension extender="Visual Paradigm for UML">
-						<qualityScore value="-1"/>
+						<qualityScore value="100"/>
 						<appliedStereotype xmi:value="Extend_Extend_id"/>
 					</xmi:Extension>
 				</extend>
 			</ownedMember>
-			<ownedMember isAbstract="false" isLeaf="false" name="Check eternal paintings" xmi:id="u5mdjaKEEWXMCQjB" xmi:type="uml:UseCase">
+			<ownedMember isAbstract="false" isLeaf="false" name="Check external paintings" xmi:id="u5mdjaKEEWXMCQjB" xmi:type="uml:UseCase">
 				<xmi:Extension extender="Visual Paradigm for UML">
 					<isRoot xmi:value="false"/>
 					<justification xmi:value=""/>
@@ -7770,12 +7770,6 @@
 						</xmi:Extension>
 					</taggedValue>
 				</xmi:Extension>
-				<extend extendedCase="gYKtjaKEEWXMCQgy" extensionLocation="1r9jjaKEEWXMCQnt" xmi:id="1r9jjaKEEWXMCQns" xmi:type="uml:Extend">
-					<xmi:Extension extender="Visual Paradigm for UML">
-						<qualityScore value="-1"/>
-						<appliedStereotype xmi:value="Extend_Extend_id"/>
-					</xmi:Extension>
-				</extend>
 			</ownedMember>
 			<ownedMember isAbstract="false" isLeaf="false" name="Sign up for newsletter" xmi:id="w2E9jaKEEWXMCQkE" xmi:type="uml:UseCase">
 				<xmi:Extension extender="Visual Paradigm for UML">
@@ -8014,8 +8008,8 @@
 					<justification xmi:value=""/>
 					<businessModel xmi:value="false"/>
 					<useCaseId xmi:value="UC26"/>
-					<qualityScore value="26"/>
-					<qualityReason value="2&#9;2&#10;5&#9;5"/>
+					<qualityScore value="97"/>
+					<qualityReason value="2&#9;2"/>
 					<appliedStereotype xmi:value="UseCase_UseCase_id"/>
 					<taggedValue tag="Level" value="" xmi:id="DwmDjaKEEWXMCQmX" xmi:type="uml:TaggedValue">
 						<xmi:Extension extender="Visual Paradigm for UML">
@@ -8094,7 +8088,8 @@
 					<justification xmi:value=""/>
 					<businessModel xmi:value="false"/>
 					<useCaseId xmi:value="UC28"/>
-					<qualityScore value="-1"/>
+					<qualityScore value="97"/>
+					<qualityReason value="2&#9;2"/>
 					<appliedStereotype xmi:value="UseCase_UseCase_id"/>
 					<taggedValue tag="Level" value="" xmi:id="AYKjjaKEEWXMCQnV" xmi:type="uml:TaggedValue">
 						<xmi:Extension extender="Visual Paradigm for UML">
@@ -8163,7 +8158,88 @@
 				</xmi:Extension>
 				<extend extendedCase="1wmDjaKEEWXMCQmV" extensionLocation="WEKjjaKEEWXMCQnf" xmi:id="WEKjjaKEEWXMCQne" xmi:type="uml:Extend">
 					<xmi:Extension extender="Visual Paradigm for UML">
-						<qualityScore value="-1"/>
+						<qualityScore value="100"/>
+						<appliedStereotype xmi:value="Extend_Extend_id"/>
+					</xmi:Extension>
+				</extend>
+			</ownedMember>
+			<ownedMember isAbstract="false" isLeaf="false" name="Search on color" xmi:id="qUbVbaKEEWXMCQa_" xmi:type="uml:UseCase">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<isRoot xmi:value="false"/>
+					<justification xmi:value=""/>
+					<businessModel xmi:value="false"/>
+					<useCaseId xmi:value="UC30"/>
+					<qualityScore value="97"/>
+					<qualityReason value="2&#9;2"/>
+					<appliedStereotype xmi:value="UseCase_UseCase_id"/>
+					<taggedValue tag="Level" value="" xmi:id="OUbVbaKEEWXMCQbB" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="2"/>
+							<taggedValueDefinition idref="EWPRjaKEEWVqTw7e"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Complexity" value="" xmi:id="eUbVbaKEEWXMCQbC" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="2"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7f"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Use Case Status" value="" xmi:id="hUbVbaKEEWXMCQbD" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="2"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7g"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Implementation Status" value="" xmi:id="xUbVbaKEEWXMCQbE" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="2"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7h"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Preconditions" value="" xmi:id="pUbVbaKEEWXMCQbF" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="4"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7i"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Post-conditions" value="" xmi:id="5UbVbaKEEWXMCQbG" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="4"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7j"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Author" value="" xmi:id="VUbVbaKEEWXMCQbH" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="0"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7k"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+					<taggedValue tag="Assumptions" value="" xmi:id="tUbVbaKEEWXMCQbI" xmi:type="uml:TaggedValue">
+						<xmi:Extension extender="Visual Paradigm for UML">
+							<type value="4"/>
+							<taggedValueDefinition idref="6WPRjaKEEWVqTw7l"/>
+							<stereotype xmi:value="UseCase"/>
+							<qualityScore value="-1"/>
+						</xmi:Extension>
+					</taggedValue>
+				</xmi:Extension>
+				<extend extendedCase="0KdljaKEEWXMCQWk" extensionLocation="hsbVbaKEEWXMCQbL" xmi:id="hsbVbaKEEWXMCQbK" xmi:type="uml:Extend">
+					<xmi:Extension extender="Visual Paradigm for UML">
+						<qualityScore value="100"/>
 						<appliedStereotype xmi:value="Extend_Extend_id"/>
 					</xmi:Extension>
 				</extend>
@@ -8615,7 +8691,7 @@
 				</xmi:Extension>
 			</ownedEnd>
 			<xmi:Extension extender="Visual Paradigm for UML">
-				<qualityScore value="-1"/>
+				<qualityScore value="100"/>
 			</xmi:Extension>
 		</ownedMember>
 	</uml:Model>
@@ -8626,7 +8702,7 @@
 				<ashowAllocatedTo value="true"/>
 				<apmAuthor value="Jeroen"/>
 				<apmCreateDateTime value="1398844381263"/>
-				<apmLastModified value="1398928335131"/>
+				<apmLastModified value="1398929678022"/>
 				<ashowPackageNameStyle value="0"/>
 				<ashowConnectorName value="0"/>
 				<apaintConnectorThroughLabel value="0"/>
@@ -8655,7 +8731,7 @@
 				<ax value="0"/>
 				<ay value="0"/>
 				<awidth value="1475"/>
-				<aheight value="850"/>
+				<aheight value="751"/>
 				<aqualityScore value="-1"/>
 				<a_globalPaletteOption value="true"/>
 				<a_alwaysShowReferenceAndSubdiagramResource value="false"/>
@@ -8670,9 +8746,9 @@
 			</properties>
 		</xmi:Extension>
 		<uml:Diagram.element>
-			<uml:DiagramElement geometry="130,440;220,440;" preferredShapeType="Association" subject="MLpljaKEEWXMCQWV" xmi:id="LLpljaKEEWXMCQWa">
+			<uml:DiagramElement geometry="780,140;780,120;750,100;750,90;" preferredShapeType="Extend" subject="hsbVbaKEEWXMCQbK" xmi:id="HsbVbaKEEWXMCQbM">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="150,440,20,0"/>
+					<captionBounds value="760,100,80,15"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -8681,142 +8757,6 @@
 						<azOrder value="2"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1070,489;1070,450;881,221;" preferredShapeType="Association" subject="_aLljaKEEWXMCQW8" xmi:id="e6LljaKEEWXMCQXB">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="990,370,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="4"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="691,161;642,112;" preferredShapeType="Extend" subject="sC4VjaKEEWXMCQYe" xmi:id="Ei4VjaKEEWXMCQYi">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="670,120,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="6"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
 						<aselectable value="true"/>
 						<arequestResetCaption value="false"/>
 						<arequestResetCaptionSize value="false"/>
@@ -8842,1216 +8782,9 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="673,180;602,180;" preferredShapeType="Extend" subject="47kVjaKEEWXMCQYl" xmi:id="F7kVjaKEEWXMCQYn">
+			<uml:DiagramElement geometry="700,60,90,40" preferredShapeType="UseCase" subject="qUbVbaKEEWXMCQa_" xmi:id="qUbVbaKEEWXMCQa.">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="590,160,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="8"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="688,220;610,220;" preferredShapeType="Extend" subject="t7UVjaKEEWXMCQYq" xmi:id="wHUVjaKEEWXMCQYs">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="610,200,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="10"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="686,219;665,272;" preferredShapeType="Extend" subject="350VjaKEEWXMCQYv" xmi:id="aF0VjaKEEWXMCQYx">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="660,260,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="12"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,489;872,342;" preferredShapeType="Association" subject="jy1VjaKEEWXMCQa8" xmi:id="cK1VjaKEEWXMCQbB">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="930,400,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="14"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="120,250;180,250;464,387;" preferredShapeType="Association" subject="PHo1jaKEEWXMCQbZ" xmi:id="Sno1jaKEEWXMCQbe">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="290,300,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="16"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,520;1000,520;610,400;570,400;" preferredShapeType="Association" subject="NyE1jaKEEWXMCQbo" xmi:id="oKE1jaKEEWXMCQbt">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="790,440,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="18"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,500;1010,500;940,390;892,390;" preferredShapeType="Association" subject=".1P1jaKEEWXMCQci" xmi:id="b1P1jaKEEWXMCQcn">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="920,430,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="20"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,510;1000,510;918,475;" preferredShapeType="Association" subject="wtSNjaKEEWXMCQdz" xmi:id="mtSNjaKEEWXMCQd4">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="890,510,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="22"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,530;990,530;776,505;" preferredShapeType="Association" subject="al9NjaKEEWXMCQe4" xmi:id="tl9NjaKEEWXMCQe9">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="890,520,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="24"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="625,470;570,470;" preferredShapeType="Extend" subject="VZzNjaKEEWXMCQfW" xmi:id="o5zNjaKEEWXMCQfY">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="550,480,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="26"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,540;820,540;" preferredShapeType="Association" subject="Oa3NjaKEEWXMCQf3" xmi:id="Y63NjaKEEWXMCQf8">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="909,540,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="28"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,550;830,550;780,570;750,570;" preferredShapeType="Association" subject="b2ctjaKEEWXMCQgT" xmi:id="cOctjaKEEWXMCQgY">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="910,550,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="30"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="739,387;601,363;" preferredShapeType="Extend" subject="oUOtjaKEEWXMCQhC" xmi:id="2UOtjaKEEWXMCQhE">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="600,380,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="32"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="120,210;170,130;310,130;" preferredShapeType="Association" subject="RlPtjaKEEWXMCQiS" xmi:id="XlPtjaKEEWXMCQiX">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="160,140,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="34"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="120,210;308,210;" preferredShapeType="Association" subject="AVmdjaKEEWXMCQjM" xmi:id="2VmdjaKEEWXMCQjR">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="190,200,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="36"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,590;940,590;890,670;880,670;" preferredShapeType="Association" subject=".x09jaKEEWXMCQkY" xmi:id="7x09jaKEEWXMCQkd">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="940,610,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="38"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="760,670;670,670;" preferredShapeType="Include" subject="9HM9jaKEEWXMCQkz" xmi:id="XHM9jaKEEWXMCQk1">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="680,650,78,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="40"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1030,610;960,610;870,730;850,730;" preferredShapeType="Association" subject="4lb9jaKEEWXMCQlp" xmi:id="hlb9jaKEEWXMCQlu">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="930,660,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="42"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="1019,570;900,570;900,596;" preferredShapeType="Association" subject="Nm8jjaKEEWXMCQnE" xmi:id="wW8jjaKEEWXMCQnJ">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="949,570,20,0"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="44"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<acreatorDiagramType value="UseCaseDiagram"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ahasRoleAShape value="false"/>
-						<ahasRoleBShape value="false"/>
-						<ashowMultiplicityConstraints value="false"/>
-						<ahasMultiplicityAShape value="false"/>
-						<ahasMultiplicityBShape value="false"/>
-						<ashowOrderedMultiplicityConstraint value="true"/>
-						<ashowUniqueMultiplicityConstraint value="true"/>
-						<a0SwDr value="false"/>
-						<ashowStereotypes value="true"/>
-						<ashowFromRoleName value="true"/>
-						<ashowToRoleName value="true"/>
-						<ashowFromMultiplicity value="true"/>
-						<ashowToMultiplicity value="true"/>
-						<ashowFromRoleVisibility value="true"/>
-						<ashowToRoleVisibility value="true"/>
-						<ashowAssociationEndPropertyStrings value="false"/>
-						<ahasAssociationEndPropertyStringsAShape value="false"/>
-						<ahasAssociationEndPropertyStringsBShape value="false"/>
-						<afromRoleInternalWidth value="-2147483648"/>
-						<afromRoleInternalHeight value="-2147483648"/>
-						<atoRoleInternalWidth value="-2147483648"/>
-						<atoRoleInternalHeight value="-2147483648"/>
-						<afromMultiplicityInternalWidth value="-2147483648"/>
-						<afromMultiplicityInternalHeight value="-2147483648"/>
-						<atoMultiplicityInternalWidth value="-2147483648"/>
-						<atoMultiplicityInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
-						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
-						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
-						<ashowNavigationArrows value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="720,610;600,610;" preferredShapeType="Extend" subject="WEKjjaKEEWXMCQne" xmi:id="bEKjjaKEEWXMCQng">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="620,610,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="46"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="431,327;420,205;" preferredShapeType="Extend" subject="1r9jjaKEEWXMCQns" xmi:id="wb9jjaKEEWXMCQnu">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="400,250,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="48"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="680,310;490,300;460,190;412,142;" preferredShapeType="Extend" subject="qMgTjaKEEWXMCQn_" xmi:id="DMgTjaKEEWXMCQoB">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="400,150,80,15"/>
-					<captionInternalWidth value="-2147483648"/>
-					<captionInternalHeight value="-2147483648"/>
-					<captionVisible value="true"/>
-					<captionSide value="1"/>
-					<properties>
-						<azOrder value="50"/>
-						<abackground value="Cr:122,207,245,255"/>
-						<aforeground value="Cr:0,0,0,255"/>
-						<aselectable value="true"/>
-						<arequestResetCaption value="false"/>
-						<arequestResetCaptionSize value="false"/>
-						<aconnectorStyle value="3"/>
-						<aconnectorLineJumps value="4"/>
-						<aconnectorLabelOrientation value="4"/>
-						<afromShapeXDiff value="0"/>
-						<afromShapeYDiff value="0"/>
-						<atoShapeXDiff value="0"/>
-						<atoShapeYDiff value="0"/>
-						<afromConnectType value="0"/>
-						<atoConnectType value="0"/>
-						<auseFromShapeCenter value="true"/>
-						<auseToShapeCenter value="true"/>
-						<afromPinType value="1"/>
-						<atoPinType value="1"/>
-						<arequestRebuild value="false"/>
-						<ashowConnectorName value="2"/>
-						<apaintThroughLabel value="2"/>
-						<ashowCondition value="0"/>
-					</properties>
-				</xmi:Extension>
-				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-			</uml:DiagramElement>
-			<uml:DiagramElement geometry="520,590,80,40" preferredShapeType="UseCase" subject="XoKjjaKEEWXMCQnT" xmi:id="noKjjaKEEWXMCQnS">
-				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,80,40"/>
+					<captionBounds value="0,0,90,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10087,9 +8820,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="720,580,190,60" preferredShapeType="UseCase" subject="1wmDjaKEEWXMCQmV" xmi:id="1wmDjaKEEWXMCQmU">
+			<uml:DiagramElement geometry="130,440;220,440;" preferredShapeType="Association" subject="MLpljaKEEWXMCQWV" xmi:id="LLpljaKEEWXMCQWa">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,190,22"/>
+					<captionBounds value="150,440,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="6"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="520,590,80,40" preferredShapeType="UseCase" subject="XoKjjaKEEWXMCQnT" xmi:id="noKjjaKEEWXMCQnS">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,80,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10125,9 +8926,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="700,710,150,40" preferredShapeType="UseCase" subject="ZzT9jaKEEWXMCQlX" xmi:id="ZzT9jaKEEWXMCQlW">
+			<uml:DiagramElement geometry="1070,489;1070,450;889,235;" preferredShapeType="Association" subject="_aLljaKEEWXMCQW8" xmi:id="e6LljaKEEWXMCQXB">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,150,40"/>
+					<captionBounds value="990,370,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="10"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="720,580,190,60" preferredShapeType="UseCase" subject="1wmDjaKEEWXMCQmV" xmi:id="1wmDjaKEEWXMCQmU">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,190,22"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10163,9 +9032,45 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="560,650,110,40" preferredShapeType="UseCase" subject="wbM9jaKEEWXMCQkn" xmi:id="wbM9jaKEEWXMCQkm">
+			<uml:DiagramElement geometry="693,163;642,112;" preferredShapeType="Extend" subject="sC4VjaKEEWXMCQYe" xmi:id="Ei4VjaKEEWXMCQYi">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,110,40"/>
+					<captionBounds value="670,120,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="14"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="700,710,150,40" preferredShapeType="UseCase" subject="ZzT9jaKEEWXMCQlX" xmi:id="ZzT9jaKEEWXMCQlW">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,150,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10201,9 +9106,45 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="760,650,120,40" preferredShapeType="UseCase" subject="w2E9jaKEEWXMCQkE" xmi:id="w2E9jaKEEWXMCQkD">
+			<uml:DiagramElement geometry="676,180;602,180;" preferredShapeType="Extend" subject="47kVjaKEEWXMCQYl" xmi:id="F7kVjaKEEWXMCQYn">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,120,40"/>
+					<captionBounds value="590,160,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="18"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="570,650,110,40" preferredShapeType="UseCase" subject="wbM9jaKEEWXMCQkn" xmi:id="wbM9jaKEEWXMCQkm">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,110,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10239,7 +9180,43 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="300,180,120,40" preferredShapeType="UseCase" subject="u5mdjaKEEWXMCQjB" xmi:id="u5mdjaKEEWXMCQjA">
+			<uml:DiagramElement geometry="676,220;610,220;" preferredShapeType="Extend" subject="t7UVjaKEEWXMCQYq" xmi:id="wHUVjaKEEWXMCQYs">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="600,200,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="22"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="760,650,120,40" preferredShapeType="UseCase" subject="w2E9jaKEEWXMCQkE" xmi:id="w2E9jaKEEWXMCQkD">
 				<xmi:Extension extender="Visual Paradigm for UML">
 					<captionBounds value="0,0,120,40"/>
 					<captionInternalWidth value="-2147483648"/>
@@ -10277,9 +9254,45 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="310,110,110,40" preferredShapeType="UseCase" subject="HZPtjaKEEWXMCQiH" xmi:id="7ZPtjaKEEWXMCQiG">
+			<uml:DiagramElement geometry="683,228;665,272;" preferredShapeType="Extend" subject="350VjaKEEWXMCQYv" xmi:id="aF0VjaKEEWXMCQYx">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,110,40"/>
+					<captionBounds value="660,260,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="26"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="310,230,120,40" preferredShapeType="UseCase" subject="u5mdjaKEEWXMCQjB" xmi:id="u5mdjaKEEWXMCQjA">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,120,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10315,9 +9328,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="420,310,220,60" preferredShapeType="UseCase" subject="gYKtjaKEEWXMCQgy" xmi:id="gYKtjaKEEWXMCQgx">
+			<uml:DiagramElement geometry="1019,489;930,340;876,340;" preferredShapeType="Association" subject="jy1VjaKEEWXMCQa8" xmi:id="cK1VjaKEEWXMCQbB">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,220,22"/>
+					<captionBounds value="940,380,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="30"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="310,110,110,40" preferredShapeType="UseCase" subject="HZPtjaKEEWXMCQiH" xmi:id="7ZPtjaKEEWXMCQiG">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,110,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10353,9 +9434,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="660,550,90,40" preferredShapeType="UseCase" subject="rrvNjaKEEWXMCQgD" xmi:id="LrvNjaKEEWXMCQgC">
+			<uml:DiagramElement geometry="120,250;180,250;464,387;" preferredShapeType="Association" subject="PHo1jaKEEWXMCQbZ" xmi:id="Sno1jaKEEWXMCQbe">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,90,40"/>
+					<captionBounds value="290,300,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="34"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="420,310,220,60" preferredShapeType="UseCase" subject="gYKtjaKEEWXMCQgy" xmi:id="gYKtjaKEEWXMCQgx">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,220,60"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10391,9 +9540,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="740,520,80,40" preferredShapeType="UseCase" subject="nunNjaKEEWXMCQfn" xmi:id="HunNjaKEEWXMCQfm">
+			<uml:DiagramElement geometry="1019,520;1000,520;610,400;570,400;" preferredShapeType="Association" subject="NyE1jaKEEWXMCQbo" xmi:id="oKE1jaKEEWXMCQbt">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,80,40"/>
+					<captionBounds value="790,440,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="38"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="660,550,90,40" preferredShapeType="UseCase" subject="rrvNjaKEEWXMCQgD" xmi:id="LrvNjaKEEWXMCQgC">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,90,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10429,9 +9646,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="450,450,120,40" preferredShapeType="UseCase" subject="EJzNjaKEEWXMCQfL" xmi:id="4JzNjaKEEWXMCQfK">
+			<uml:DiagramElement geometry="1019,500;1010,500;940,390;892,390;" preferredShapeType="Association" subject=".1P1jaKEEWXMCQci" xmi:id="b1P1jaKEEWXMCQcn">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,120,40"/>
+					<captionBounds value="920,430,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="42"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="740,520,80,40" preferredShapeType="UseCase" subject="nunNjaKEEWXMCQfn" xmi:id="HunNjaKEEWXMCQfm">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,80,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10467,9 +9752,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="620,450,200,60" preferredShapeType="UseCase" subject="Li1NjaKEEWXMCQeg" xmi:id="zi1NjaKEEWXMCQef">
+			<uml:DiagramElement geometry="1019,510;1000,510;918,475;" preferredShapeType="Association" subject="wtSNjaKEEWXMCQdz" xmi:id="mtSNjaKEEWXMCQd4">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,200,22"/>
+					<captionBounds value="890,510,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="46"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="450,450,120,40" preferredShapeType="UseCase" subject="EJzNjaKEEWXMCQfL" xmi:id="4JzNjaKEEWXMCQfK">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,120,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10505,9 +9858,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="850,440,80,40" preferredShapeType="UseCase" subject="lY_1jaKEEWXMCQcu" xmi:id="FY_1jaKEEWXMCQct">
+			<uml:DiagramElement geometry="1019,530;990,530;776,505;" preferredShapeType="Association" subject="al9NjaKEEWXMCQe4" xmi:id="tl9NjaKEEWXMCQe9">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,80,40"/>
+					<captionBounds value="890,520,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="50"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="620,450,200,60" preferredShapeType="UseCase" subject="Li1NjaKEEWXMCQeg" xmi:id="zi1NjaKEEWXMCQef">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,200,22"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10543,9 +9964,45 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="700,380,220,60" preferredShapeType="UseCase" subject="rpR1jaKEEWXMCQcO" xmi:id="rpR1jaKEEWXMCQcN">
+			<uml:DiagramElement geometry="625,470;570,470;" preferredShapeType="Extend" subject="VZzNjaKEEWXMCQfW" xmi:id="o5zNjaKEEWXMCQfY">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,220,22"/>
+					<captionBounds value="550,480,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="54"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="850,440,80,40" preferredShapeType="UseCase" subject="lY_1jaKEEWXMCQcu" xmi:id="FY_1jaKEEWXMCQct">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,80,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10581,9 +10038,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="450,380,120,40" preferredShapeType="UseCase" subject=".6dVjaKEEWXMCQbK" xmi:id=".6dVjaKEEWXMCQbJ">
+			<uml:DiagramElement geometry="1019,540;820,540;" preferredShapeType="Association" subject="Oa3NjaKEEWXMCQf3" xmi:id="Y63NjaKEEWXMCQf8">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,120,40"/>
+					<captionBounds value="909,540,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="58"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="700,380,220,60" preferredShapeType="UseCase" subject="rpR1jaKEEWXMCQcO" xmi:id="rpR1jaKEEWXMCQcN">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,220,22"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10619,9 +10144,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="680,280,210,80" preferredShapeType="UseCase" subject="U45VjaKEEWXMCQav" xmi:id="U45VjaKEEWXMCQau">
+			<uml:DiagramElement geometry="1019,550;830,550;780,570;750,570;" preferredShapeType="Association" subject="b2ctjaKEEWXMCQgT" xmi:id="cOctjaKEEWXMCQgY">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,210,42"/>
+					<captionBounds value="910,550,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="62"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="450,380,120,40" preferredShapeType="UseCase" subject=".6dVjaKEEWXMCQbK" xmi:id=".6dVjaKEEWXMCQbJ">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,120,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10657,9 +10250,45 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="480,200,130,40" preferredShapeType="UseCase" subject="5SwVjaKEEWXMCQYE" xmi:id="5SwVjaKEEWXMCQYD">
+			<uml:DiagramElement geometry="739,387;601,363;" preferredShapeType="Extend" subject="oUOtjaKEEWXMCQhC" xmi:id="2UOtjaKEEWXMCQhE">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,130,40"/>
+					<captionBounds value="600,380,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="66"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="680,280,210,80" preferredShapeType="UseCase" subject="U45VjaKEEWXMCQav" xmi:id="U45VjaKEEWXMCQau">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,210,42"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10695,9 +10324,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="530,260,140,40" preferredShapeType="UseCase" subject="X1_ljaKEEWXMCQX1" xmi:id="X1_ljaKEEWXMCQX0">
+			<uml:DiagramElement geometry="120,210;170,130;310,130;" preferredShapeType="Association" subject="RlPtjaKEEWXMCQiS" xmi:id="XlPtjaKEEWXMCQiX">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,140,40"/>
+					<captionBounds value="160,140,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="70"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="480,200,130,40" preferredShapeType="UseCase" subject="5SwVjaKEEWXMCQYE" xmi:id="5SwVjaKEEWXMCQYD">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,130,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10733,9 +10430,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="490,150,120,40" preferredShapeType="UseCase" subject="Gx3ljaKEEWXMCQXh" xmi:id="Gx3ljaKEEWXMCQXg">
+			<uml:DiagramElement geometry="120,220;350,220;350,231;" preferredShapeType="Association" subject="AVmdjaKEEWXMCQjM" xmi:id="2VmdjaKEEWXMCQjR">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,120,40"/>
+					<captionBounds value="210,210,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="74"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="530,260,140,40" preferredShapeType="UseCase" subject="X1_ljaKEEWXMCQX1" xmi:id="X1_ljaKEEWXMCQX0">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,140,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10771,9 +10536,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="560,80,90,40" preferredShapeType="UseCase" subject="55bljaKEEWXMCQXL" xmi:id="55bljaKEEWXMCQXK">
+			<uml:DiagramElement geometry="1019,590;940,590;890,670;880,670;" preferredShapeType="Association" subject=".x09jaKEEWXMCQkY" xmi:id="7x09jaKEEWXMCQkd">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,90,40"/>
+					<captionBounds value="940,610,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="78"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="490,150,120,40" preferredShapeType="UseCase" subject="Gx3ljaKEEWXMCQXh" xmi:id="Gx3ljaKEEWXMCQXg">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,120,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10809,9 +10642,44 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="670,140,230,104" preferredShapeType="UseCase" subject="0KdljaKEEWXMCQWk" xmi:id="0KdljaKEEWXMCQWj">
+			<uml:DiagramElement geometry="760,670;680,670;" preferredShapeType="Include" subject="9HM9jaKEEWXMCQkz" xmi:id="XHM9jaKEEWXMCQk1">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,230,24"/>
+					<captionBounds value="680,650,78,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="82"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="560,80,90,40" preferredShapeType="UseCase" subject="55bljaKEEWXMCQXL" xmi:id="55bljaKEEWXMCQXK">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,90,40"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10847,9 +10715,77 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="220,410,160,60" preferredShapeType="UseCase" subject="nJSljaKEEWXMCQVi" xmi:id="9JSljaKEEWXMCQVh">
+			<uml:DiagramElement geometry="1030,610;960,610;870,730;850,730;" preferredShapeType="Association" subject="4lb9jaKEEWXMCQlp" xmi:id="hlb9jaKEEWXMCQlu">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,160,60"/>
+					<captionBounds value="930,660,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="86"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="670,140,240,120" preferredShapeType="UseCase" subject="0KdljaKEEWXMCQWk" xmi:id="0KdljaKEEWXMCQWj">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,240,26"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
@@ -10885,15 +10821,157 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
-			<uml:DiagramElement geometry="200,50,780,710" preferredShapeType="System" subject="EXlFjaKEEWXMCQVW" xmi:id="oXlFjaKEEWXMCQVV">
+			<uml:DiagramElement geometry="1019,570;900,570;900,596;" preferredShapeType="Association" subject="Nm8jjaKEEWXMCQnE" xmi:id="wW8jjaKEEWXMCQnJ">
 				<xmi:Extension extender="Visual Paradigm for UML">
-					<captionBounds value="0,0,780,710"/>
+					<captionBounds value="949,570,20,0"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="90"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<acreatorDiagramType value="UseCaseDiagram"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ahasRoleAShape value="false"/>
+						<ahasRoleBShape value="false"/>
+						<ashowMultiplicityConstraints value="false"/>
+						<ahasMultiplicityAShape value="false"/>
+						<ahasMultiplicityBShape value="false"/>
+						<ashowOrderedMultiplicityConstraint value="true"/>
+						<ashowUniqueMultiplicityConstraint value="true"/>
+						<a0SwDr value="false"/>
+						<ashowStereotypes value="true"/>
+						<ashowFromRoleName value="true"/>
+						<ashowToRoleName value="true"/>
+						<ashowFromMultiplicity value="true"/>
+						<ashowToMultiplicity value="true"/>
+						<ashowFromRoleVisibility value="true"/>
+						<ashowToRoleVisibility value="true"/>
+						<ashowAssociationEndPropertyStrings value="false"/>
+						<ahasAssociationEndPropertyStringsAShape value="false"/>
+						<ahasAssociationEndPropertyStringsBShape value="false"/>
+						<afromRoleInternalWidth value="-2147483648"/>
+						<afromRoleInternalHeight value="-2147483648"/>
+						<atoRoleInternalWidth value="-2147483648"/>
+						<atoRoleInternalHeight value="-2147483648"/>
+						<afromMultiplicityInternalWidth value="-2147483648"/>
+						<afromMultiplicityInternalHeight value="-2147483648"/>
+						<atoMultiplicityInternalWidth value="-2147483648"/>
+						<atoMultiplicityInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+						<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+						<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+						<ashowNavigationArrows value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="220,410,160,60" preferredShapeType="UseCase" subject="nJSljaKEEWXMCQVi" xmi:id="9JSljaKEEWXMCQVh">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,160,60"/>
 					<captionInternalWidth value="-2147483648"/>
 					<captionInternalHeight value="-2147483648"/>
 					<captionVisible value="true"/>
 					<captionSide value="6"/>
 					<properties>
 						<azOrder value="44"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<apresentationOption value="0"/>
+						<aprimitiveShapeType value="0"/>
+						<ashowAllocatedFrom value="0"/>
+						<ashowAllocatedTo value="0"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<ashowExtensionPoint value="true"/>
+						<adisplayOption value="3"/>
+					</properties>
+					<parentDiagramElement idref="oXlFjaKEEWXMCQVV"/>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="720,610;600,610;" preferredShapeType="Extend" subject="WEKjjaKEEWXMCQne" xmi:id="bEKjjaKEEWXMCQng">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="620,610,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="94"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="200,50,780,830" preferredShapeType="System" subject="EXlFjaKEEWXMCQVW" xmi:id="oXlFjaKEEWXMCQVV">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,780,830"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="6"/>
+					<properties>
+						<azOrder value="46"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<aselectable value="true"/>
@@ -10929,7 +11007,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="4"/>
 					<properties>
-						<azOrder value="47"/>
+						<azOrder value="48"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="UseCaseDiagram"/>
@@ -10958,6 +11036,42 @@
 				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 			</uml:DiagramElement>
+			<uml:DiagramElement geometry="680,310;490,300;460,190;412,142;" preferredShapeType="Extend" subject="qMgTjaKEEWXMCQn_" xmi:id="DMgTjaKEEWXMCQoB">
+				<xmi:Extension extender="Visual Paradigm for UML">
+					<captionBounds value="400,150,80,15"/>
+					<captionInternalWidth value="-2147483648"/>
+					<captionInternalHeight value="-2147483648"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<azOrder value="100"/>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<ashowConnectorName value="2"/>
+						<apaintThroughLabel value="2"/>
+						<ashowCondition value="0"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
 			<uml:DiagramElement geometry="70,210,50,90" preferredShapeType="Actor" subject="F6sFjaKEEWXMCQUq" xmi:id="F6sFjaKEEWXMCQUp">
 				<xmi:Extension extender="Visual Paradigm for UML">
 					<captionBounds value="60,300,70,15"/>
@@ -10966,7 +11080,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="4"/>
 					<properties>
-						<azOrder value="49"/>
+						<azOrder value="50"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="UseCaseDiagram"/>
@@ -11003,7 +11117,7 @@
 					<captionVisible value="true"/>
 					<captionSide value="4"/>
 					<properties>
-						<azOrder value="51"/>
+						<azOrder value="52"/>
 						<abackground value="Cr:122,207,245,255"/>
 						<aforeground value="Cr:0,0,0,255"/>
 						<acreatorDiagramType value="UseCaseDiagram"/>
